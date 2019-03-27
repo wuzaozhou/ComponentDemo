@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+
+inhibit_all_warnings!
+# 官方 
+source 'https://github.com/CocoaPods/Specs.git'
+target 'TestDemo' do
+    pod 'ManageLocalCode', :path => '../ManageLocalCode'
+    pod 'Me', :path => '../Me'
+    pod 'UITableView+FDTemplateLayoutCell'#全页面返回框架
+end

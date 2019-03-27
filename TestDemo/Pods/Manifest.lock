@@ -1,0 +1,29 @@
+PODS:
+  - ManageLocalCode (0.0.1):
+    - Me
+  - Me (0.0.1)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+
+DEPENDENCIES:
+  - ManageLocalCode (from `../ManageLocalCode`)
+  - Me (from `../Me`)
+  - "UITableView+FDTemplateLayoutCell"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - "UITableView+FDTemplateLayoutCell"
+
+EXTERNAL SOURCES:
+  ManageLocalCode:
+    :path: "../ManageLocalCode"
+  Me:
+    :path: "../Me"
+
+SPEC CHECKSUMS:
+  ManageLocalCode: 60152eb5a50b7d754592eeef1498b614a0605bf0
+  Me: a8c7c6cfca8029c15b72a670d596ef32f265efd2
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+
+PODFILE CHECKSUM: 89ef807eb1215a4b53c6e65ab5ca2d59d7963ed2
+
+COCOAPODS: 1.5.3

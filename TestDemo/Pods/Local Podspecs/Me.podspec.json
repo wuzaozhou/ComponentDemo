@@ -1,0 +1,27 @@
+{
+  "name": "Me",
+  "version": "0.0.1",
+  "summary": "A short description of Me.",
+  "description": "我的组件",
+  "homepage": "http://EXAMPLE/Me",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "吴灶洲": ""
+  },
+  "source": {
+    "git": "",
+    "tag": "0.0.1"
+  },
+  "source_files": "Me/MeCode/*.{h,m}",
+  "exclude_files": "Classes/Exclude",
+  "resources": "Me/Resources/MeImage.bundle",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}
